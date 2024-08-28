@@ -14,3 +14,11 @@
     display: inline-block;
 }
 
+
+
+
+@media(width < 720px) {
+   .partner-slider h2{
+        padding-top: 1rem;
+   }
+}

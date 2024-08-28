@@ -29,7 +29,6 @@ const PartnerSlider = () => {
         <div className="slide">
           <img src="marca3.png" alt="Marca 3" />
         </div>
-        {/* Adicione mais slides conforme necessário */}
       </Slider>
     </div>
   );

@@ -20,7 +20,27 @@
 
 }
 
-.hero-section_text  {
+.hero-section_text p {
     font-size: 1rem;
     color: #323030;
+}
+
+@media(width < 720px) {
+    .img-limao{
+        width: 100%;
+    }
+
+    .hero-section_text h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #555555;
+    
+    }
+
+    
+    .hero-section_text p {
+        font-size: 0.8rem;
+        color: #323030;
+    }
 }
