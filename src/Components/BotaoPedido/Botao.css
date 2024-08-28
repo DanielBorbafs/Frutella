@@ -1,0 +1,54 @@
+button {
+    font-size: 20px;
+    background: #BF5697;
+    color: white;
+    padding: 1rem;
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+  
+button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.4ss ease-in-out;
+}
+  
+
+button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.5s ease-in-out;
+}
+  
+button:hover {
+    background: #dd64af;
+}
+  
+.img-wrapper img {
+    width: 18px;
+}
+button:hover .img-wrapper {
+    transform: scale(1.25);
+    transition: 0.5s linear;
+}
+  
+button:hover img {
+    transform: translateX(2.5em) scale(1.1);
+    fill: #e60000;
+}
+  
+button:hover span {
+    opacity: 0;
+    transition: 0.5s linear;
+}
+  
+button:active {
+    transform: scale(0.95);
+}
+  

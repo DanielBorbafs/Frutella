@@ -1,0 +1,16 @@
+/* src/components/PartnerSlider.css */
+.partner-slider .slide {
+    padding: 10px;
+  }
+  
+.partner-slider img {
+    width: 100%;
+    display: block;
+}
+
+.partner-slider h2{
+    text-align: center;
+    border-bottom: 2px solid #BF5697;
+    display: inline-block;
+}
+

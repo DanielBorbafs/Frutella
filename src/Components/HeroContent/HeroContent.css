@@ -1,0 +1,26 @@
+.section-principal{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Frutella{
+    font-family: Rubik Bubbles ;
+    font-size: 2.4rem;
+    color: #BF5697;
+    
+}
+
+.hero-section_text h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+.hero-section_text  {
+    font-size: 1rem;
+    color: #323030;
+}
