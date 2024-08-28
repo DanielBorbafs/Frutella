@@ -1,4 +1,10 @@
+
+
 *{
   padding: 0;
   margin: 0;
+}
+
+body{
+  background-image: ('assets/images/lemon.png');
 }

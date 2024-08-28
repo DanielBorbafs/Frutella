@@ -1,0 +1,9 @@
+.heroSection {
+    z-index: 99;
+    background-image: url('../../assets/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajuste conforme necessário */
+    width: 100%; /* Ajuste conforme necessário */
+
+}
