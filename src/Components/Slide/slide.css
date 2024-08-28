@@ -12,6 +12,8 @@
     text-align: center;
     border-bottom: 2px solid #BF5697;
     display: inline-block;
+    font-weight: 600;
+    color: #555254;
 }
 
 .slide {
@@ -20,8 +22,15 @@
   
 
 .slide img{
-    width: 220px
+    width: 220px;
+    cursor: pointer;
+    transition: .3s ease-in
 ;}
+
+.slide img:hover{
+    transform: scale(1.4);
+}
+
 
 .Slide-marcas .slick-slide {
     padding: 0; /* Remove qualquer padding que possa estar aumentando o espaço */
@@ -30,15 +39,20 @@
 
 
 @media(width < 720px) {
-   .partner-slider h2{
-        padding-top: 1rem;
-   }
+  
 
    @media(width < 720px) {
     .slide img{
-        padding-left: 2rem;
+        width: 130px;
 
     ;}
+
+    .partner-slider h2{
+      margin-top: 1.2rem;
+      width: 100%;
+      border-bottom: none;
+    }
+    
  }
 }
 

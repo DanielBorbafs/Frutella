@@ -12,4 +12,6 @@ const BotaoPedido = () => {
     )
 }
 
+
+
 export default BotaoPedido

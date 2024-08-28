@@ -1,7 +1,7 @@
 // src/components/PartnerSlider.js
 import React from 'react';
 import Slider from 'react-slick';
-import './slide.css'; 
+import './Slide.css'; 
 import citrusBrasil from '../../assets/images/citrusBrasil.svg';
 import sucosTropicalia from '../../assets/images/sucosTropicalia.svg';
 import frutamerica from '../../assets/images/frutamerica.svg';
