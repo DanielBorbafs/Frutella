@@ -1,7 +1,13 @@
 // src/components/PartnerSlider.js
 import React from 'react';
 import Slider from 'react-slick';
-import './slide.css'; // Adicione o CSS personalizado se necessário
+import './slide.css'; 
+import citrusBrasil from '../../assets/images/citrusBrasil.svg';
+import sucosTropicalia from '../../assets/images/sucosTropicalia.svg';
+import frutamerica from '../../assets/images/frutamerica.svg';
+import frutaviva from '../../assets/images/frutaviva.svg';
+import saborDaTerra from '../../assets/images/saborDaTerra.svg';
+
 
 const PartnerSlider = () => {
   const settings = {
@@ -16,18 +22,21 @@ const PartnerSlider = () => {
   return (
     <div className="partner-slider">
         <h2 className="underline">Marcas Parceiras</h2>
-      <Slider {...settings}>
+      <Slider {...settings} className='Slide-marcas'>
         <div className="slide">
-          <img src="marca1.png" alt="Marca 1" />
+          <img src={citrusBrasil} alt="Marca citrus Brasil" />
         </div>
         <div className="slide">
-          <img src="marca2.png" alt="Marca 2" />
+          <img src={sucosTropicalia} alt="Marca Tropicalia" />
         </div>
         <div className="slide">
-          <img src="marca3.png" alt="Marca 3" />
+          <img src={frutamerica} alt="Marca frutamerica" />
         </div>
         <div className="slide">
-          <img src="marca3.png" alt="Marca 3" />
+          <img src={frutaviva} alt="Marca frutaviva" />
+        </div>
+        <div className="slide">
+          <img src={saborDaTerra} alt="Marca frutaviva" />
         </div>
       </Slider>
     </div>
