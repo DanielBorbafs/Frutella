@@ -1,0 +1,11 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-section_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
