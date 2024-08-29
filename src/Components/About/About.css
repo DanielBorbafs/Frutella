@@ -79,6 +79,7 @@
 .solution_card{
     background-color: red;
 }
+
 .solution_card .solu_description p {
     font-size: 15px;
     margin-bottom: 15px;
@@ -104,10 +105,7 @@
     margin-bottom: 1rem;
     font-size: 2.5rem;
 }
-  
-.our_solution_content p {
-}
-  
+
 .hover_color_bubble {
     position: absolute;
     background: rgb(54 81 207 / 15%);
@@ -152,11 +150,73 @@
 }
 
 
-  /*start media query*/
+.about-section_skills{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.skill-item img{
+    width: 5rem;
+}
+
+.skill-item h4{
+    font-size: 1rem;
+    font-weight: 800;
+    color: #BF5697;
+
+}
+
+.skill-item p{
+    font-size: 12px;
+    color: #8A8A8A;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.framboimg img{
+    width: 100%;
+}
+
+.list-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100%;
+}
+
+
+
+
+
+
+/*start media query*/
 @media screen and (width < 720px) {
     .about-section{
         margin-top: 10rem;
         flex-wrap: wrap;
     }
-   
+    .about-section_skills{
+        flex-direction: column;
+    }
 }
