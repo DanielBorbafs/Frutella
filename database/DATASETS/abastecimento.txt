@@ -1,0 +1,12 @@
+Chegou na empresa uma carga de sucos da del valle com os seguintes items:
+
+Del valle Kapo Uva 200ml - preco unidade - 1.89 - quantidadeTotal: 50 - 94,50
+Del valle Kapo Morango 200ml - preco unidade - 1.89 - quantidadeTotal: 50 - 94,50
+Del valle Sabor Laranja 350ml - preco unidade - 2.35 - quantidadeTotal 50 - 117,50
+Del valle Sabor Uva 350ml - preco unidade - 2.35 - quantidadeTotal 50 - 117,50
+Del valle Sabor Caju 350ml - preco unidade - 2.35 - quantidadeTotal: 50 - 117,50
+Del valle Sabor UvA 1L - preco unidade - 4.45  - quantidadeTotal: 50 - 222,50
+Del valle Sabor Goiaba  1L - preco unidade - 4.45  - quantidadeTotal: 50 - 222,50
+Del valle Sabor Manga  1L - preco unidade - 4.45  - quantidadeTotal: 50 - 222,50
+
+ITEMS TOTAIS:  400
