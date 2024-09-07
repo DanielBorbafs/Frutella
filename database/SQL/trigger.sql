@@ -1,5 +1,4 @@
-/* Criando uma trigger para quando um item for
-vendido ele automaticamente ser diminuido no estoque */
+
 
 CREATE TRIGGER AtualizarEstoque
 on [ITENS VENDAS]
@@ -31,3 +30,8 @@ END
 GO
 
 /* CRIAR UMA TRIGGER PARA QUANDO UM ITEM NO ESTOQUE ESTIVER ABAIXO DE 10 DAR UM ALERTA
+
+/* 
+CRIAR UMA TRIGGER PARA QUANDO O CLIENTE FIZER VÁRIAS COMPRAS ACIMA DE CERTA %  DO LIMITE ATUAL
+DO LIMITE AUMENTAR O LIMITE AUTOMATICAMENTE
+*/
