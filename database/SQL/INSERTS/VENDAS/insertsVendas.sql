@@ -111,3 +111,29 @@ INSERT INTO [ITENS VENDAS] VALUES
 (25,13,'RF000003', 7.00, 10, 70.00),
 (26,13,'RF000006', 3.20, 20, 64.00)
 GO
+
+---- teste
+----- ESTOQUE DA FRUTELLA -----
+
+INSERT INTO PRODUTO VALUES
+('FRT00001', 'Frutella Frescor de verão ', 'Lata', '350ml', 'Limão', 2.80, 'Frutella'),
+('FRT00002', 'Frutella Frescor de inverno ', 'Lata', '400ml', 'Menta', 3.50, 'Frutella'),
+('FRT00002', 'Frutella Frescor de verão ', 'Litro', '600ml', 'Laranja', 7.70, 'Frutella')
+GO
+
+INSERT INTO ESTOQUE VALUES
+(18, 'FRT00001', 100, 'Frutella', 2.80),
+(19, 'FRT00002', 80, 'Frutella', 2.80),
+(20, 'FRT00002', 100, 'Frutella', 5.50)
+GO
+
+
+-- FRT00001 20 * 2.80 = 56  FRT00002 10 * 3.5 = 35 TOTAL => 91
+
+INSERT INTO VENDAS VALUES(14, '65787812349', '13/04/2024', 91, 'DELIVERY')
+GO
+
+INSERT INTO [ITENS VENDAS] VALUES
+(27,13,'FRT00001', 2.80, 20, 56),
+(28,13,'FRT00002', 3.50, 10, 35)
+GO
