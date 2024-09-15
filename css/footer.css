@@ -18,6 +18,10 @@ footer{
     font-size: 15px;
 }
 
+.footer__links{
+    z-index: 10;
+}
+
 .footer__links > ul > h5{
     color: #fff;
     font-size: 20px;
@@ -49,5 +53,10 @@ footer{
     }
     footer{
         flex-wrap: wrap-reverse;
+    }
+    
+    .redFruits{
+        z-index: 4;
+        opacity: 50%;
     }
 }
