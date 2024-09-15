@@ -37,6 +37,11 @@ footer{
     color: #B04286;
 }
 
+.redFruits{
+    position: absolute;
+    right: 0;
+}
+
 @media screen and (max-width: 767px) {
     footer{
         margin-top: 2rem;
