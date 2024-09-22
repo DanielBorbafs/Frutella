@@ -43,3 +43,15 @@ SELECT TOP 1 [CPF CLIENTE], TOTAL
 FROM VENDAS
 ORDER BY TOTAL DESC;
 GO
+-- Criar uma query que vai retornar os dados de quem tem conta cadastrada porém nunca comprou no app;
+SELECT CPF, NOME, CELULAR
+FROM CLIENTES 
+WHERE [PRIMEIRA COMPRA] = 0 
+GO
+-- Criar uma query que irá trazer quais marcas foram vendidas e os valores
+SELECT [CODIGO DO PRODUTO], COUNT(QUANTIDADE) AS [QUANTIDADE VENDIDA]
+FROM [ITENS VENDAS]
+GROUP BY [CODIGO DO PRODUTO]
+ORDER BY [QUANTIDADE VENDIDA] DESC
+GO
+
