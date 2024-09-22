@@ -12,3 +12,18 @@ FROM [ITENS VENDAS]
 GROUP BY [CODIGO DO PRODUTO]
 WITH ROLLUP
 GO
+
+/*
+Criar uma query com CASE e THEN que vai trazer os clientes
+ e classificar por poder de compra:
+ex: um cliente tem um limite de 800 reais de credito na loja classifique-o
+ como “NÍVEL BAIXO” e assim por diante.
+*/
+SELECT NOME, [LIMITE DE COMPRA],
+    CASE
+        WHEN [LIMITE DE COMPRA] <= 800 THEN 'LIMITE BAIXO'
+        WHEN [LIMITE DE COMPRA] BETWEEN 801 AND 1500 THEN 'LIMITE MÉDIO'
+        ELSE 'LIMITE ALTO'
+    END AS [PODER DE COMPRA] 
+FROM CLIENTES 
+ORDER BY [LIMITE DE COMPRA ]
